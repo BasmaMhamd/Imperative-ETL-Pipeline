@@ -1,5 +1,5 @@
 # ============================================================
-# CLEANING MODULE
+# CLEANING MODULE (Imperative Version)
 # ============================================================
 # Team members must implement missing-value handling functions.
 #
