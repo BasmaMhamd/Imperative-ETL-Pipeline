@@ -4,8 +4,6 @@
 
 import pandas as pd
 
-df = pd.read_csv('./data/raw/Sample - Superstore.csv') 
-
 def filter_rows(df, condition):
     filtered = []
     for index, row in df.iterrows():
