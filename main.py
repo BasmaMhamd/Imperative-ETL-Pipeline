@@ -51,7 +51,7 @@ for task in tasks:
             fig = plot_histogram(df_cleaned, task["col"], bins=task.get("bins", 10))
             save_plot(fig, f"{task['col']}_histogram.png")
 
-# 6. Save summary.txt
+# 6. Save summary.txt1
 save_summary_report("summary.txt")
 
 print("\n[INFO] All visualizations completed and saved.")
